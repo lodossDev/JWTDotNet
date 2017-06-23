@@ -7,3 +7,12 @@ c:\users\ahafeez\documents\visual studio 2017\Projects\WebApplication1\WebApplic
 c:\users\ahafeez\documents\visual studio 2017\Projects\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.dll
 c:\users\ahafeez\documents\visual studio 2017\Projects\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.pdb
 C:\Users\ahafeez\Documents\Visual Studio 2017\Projects\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\lodoss118\Desktop\JWT DOT NET\JWTDotNet\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.deps.json
+C:\Users\lodoss118\Desktop\JWT DOT NET\JWTDotNet\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.runtimeconfig.json
+C:\Users\lodoss118\Desktop\JWT DOT NET\JWTDotNet\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.runtimeconfig.dev.json
+C:\Users\lodoss118\Desktop\JWT DOT NET\JWTDotNet\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.dll
+C:\Users\lodoss118\Desktop\JWT DOT NET\JWTDotNet\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.pdb
+C:\Users\lodoss118\Desktop\JWT DOT NET\JWTDotNet\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.AssemblyInfo.cs
+C:\Users\lodoss118\Desktop\JWT DOT NET\JWTDotNet\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.dll
+C:\Users\lodoss118\Desktop\JWT DOT NET\JWTDotNet\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.pdb
+C:\Users\lodoss118\Desktop\JWT DOT NET\JWTDotNet\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.csprojResolveAssemblyReference.cache

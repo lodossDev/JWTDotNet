@@ -20,8 +20,8 @@ namespace WebApplication1.Controllers
                 "3MVG92u_V3UMpV.ipXxNgIhH.2g.BQNULCFtTO8ExktgDJi4lK6pYhPxlFoT1QvwHO6lLruMFw_1ApAPjdOEb",
                 "amir.hafeez@quintessentially.com.devamir").Result;
 
-            Debug.WriteLine("RESPONSE: ", response.access_token);
-
+            //Debug.WriteLine("RESPONSE: ", response.access_token);
+            ViewData["access_token"] = response.access_token;
             ViewData["id"] = id;
             return View();
         }

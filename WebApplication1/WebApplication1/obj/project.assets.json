@@ -10781,15 +10781,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahafeez\\.nuget\\packages\\": {}
+    "C:\\Users\\lodoss118\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahafeez\\Documents\\Visual Studio 2017\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\lodoss118\\Desktop\\JWT DOT NET\\JWTDotNet\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\ahafeez\\Documents\\Visual Studio 2017\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-      "outputPath": "C:\\Users\\ahafeez\\Documents\\Visual Studio 2017\\Projects\\WebApplication1\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\lodoss118\\Desktop\\JWT DOT NET\\JWTDotNet\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "outputPath": "C:\\Users\\lodoss118\\Desktop\\JWT DOT NET\\JWTDotNet\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

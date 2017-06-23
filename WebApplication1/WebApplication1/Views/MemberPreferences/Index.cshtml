@@ -1,7 +1,58 @@
-﻿@{
-    ViewData["Title"] = "Index";
-}
+﻿@inject Microsoft.ApplicationInsights.AspNetCore.JavaScriptSnippet JavaScriptSnippet
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApplication1</title>
 
-<h2>@ViewData["id"]</h2>
+    <environment names="Development">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        
+    </environment>
+    <environment names="Staging,Production">
+        
+    </environment>
 
-<p>Hello from our View Template! AMIR TEST</p>
+    <style>
+        body {
+            background: url(https://www.quintessentially.com/img/pattern-black.png) rgba(0,0,0,0.9) !important;
+        }
+    </style>
+
+    @Html.Raw(JavaScriptSnippet.FullScript)
+</head>
+<body>
+  
+    <div id="lightning">
+    </div>
+
+    <environment names="Development">
+  
+        <script src="https://quintessentially--devamir.cs86.my.salesforce.com/lightning/lightning.out.js"></script>
+
+        <script>
+            $Lightning.use("c:MemberNewsletterPreferencesExternal",     // name of the Lightning app
+                function() {                                            // Callback once framework and app loaded
+                    $Lightning.createComponent(
+                        "c:NewsletterPreferences",                      // top-level component of your app
+                        { accId: "0017E00000WHXYwQAP"},                 // attributes to set on the component when created
+                        "lightning",                                    // the DOM location to insert the component
+                        function (cmp) {
+                            // callback when component is created and active on the page
+                        }
+                    );
+                },
+                "https://quintessentially--devamir.lightning.force.com",
+                "@ViewData["access_token"]"
+            );
+        </script>
+    </environment>
+
+    <environment names="Staging,Production">
+     
+    </environment>
+</body>
+</html>
